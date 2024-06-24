@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    font-family: Helvetica;
+    color: white;
+    font-size: 20px;
+}
+body
+{
+    background-color: #333;
+}
+h1
+{
+    font-size: 40px;
+}
+main
+{
+    width: 70vw;
+    margin-left: 15vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+input[type=number]
+{
+    width:5vw;
+    color:black
+}
+button
+{
+    color: black;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Run Calculator</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="shortcut icon" href="../Assets/icon.png">
+        <script>
+            function update()
+            {
+                var distance = document.getElementById("distance").value;
+                document.getElementById("calvalue").innerHTML = distance * 81 + "kcal";
+                document.getElementById("timevalue").innerHTML = distance * 3.75 + "min";
+            }
+        </script>
+    </head>
+    <body>
+        <main>
+            <h1>Run Calculator</h1>
+            <br>
+            <label>Distance</label> <input type="number" id="distance" name="distance" oninput="update()"><span>km</span>
+            <p>Time: <span id="timevalue"></span></p>
+            <p>Calories Burnt: <span id="calvalue"></span></p>
+        </main>
+    </body>
+</html>
